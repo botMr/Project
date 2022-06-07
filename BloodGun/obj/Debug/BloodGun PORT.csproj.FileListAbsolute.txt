@@ -1,0 +1,16 @@
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\BloodGun PORT.exe.config
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\BloodGun PORT.exe
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\BloodGun PORT.pdb
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun PORT.csproj.AssemblyReference.cache
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun PORT.csproj.SuggestedBindingRedirects.cache
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun_PORT.Achievements.resources
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun_PORT.Level1.resources
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun_PORT.Level2.resources
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun_PORT.Menu.resources
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun_PORT.Levels.resources
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun_PORT.Properties.Resources.resources
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun_PORT.Settings.resources
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun PORT.csproj.GenerateResource.cache
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun PORT.csproj.CoreCompileInputs.cache
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun PORT.exe
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun PORT.pdb

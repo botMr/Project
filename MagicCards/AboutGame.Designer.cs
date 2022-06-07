@@ -13,6 +13,10 @@
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
+            Competences competences_instance = new Competences();
+            competences_instance.mc_change_completion("Check_info", competences_instance.records[0]);
+            competences_instance.fill_csv();
+
             if (disposing && (components != null))
             {
                 components.Dispose();
