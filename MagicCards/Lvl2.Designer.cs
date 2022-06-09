@@ -13,6 +13,7 @@
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
+
             if (disposing && (components != null))
             {
                 components.Dispose();
@@ -28,6 +29,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            // Competences
+            Competences.mc_change_completion("Level_2", Competences.records[0]);
+            Competences.mc_change_completion("Level_2", Competences.records[1]);
+
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lvl2));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();

@@ -13,9 +13,6 @@
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
-            Competences competences_instance = new Competences();
-            competences_instance.mc_change_completion("Check_info", competences_instance.records[0]);
-            competences_instance.fill_csv();
 
             if (disposing && (components != null))
             {
@@ -32,6 +29,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            // Competences 
+            Competences.mc_change_completion("Check_info", Competences.records[0]);
+            Competences.mc_change_completion("Check_info", Competences.records[1]);
+
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutGame));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
