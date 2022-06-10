@@ -58,20 +58,26 @@ namespace MagicCardPortTest
                     result_grade += 0.3;
                 }
 
-                record.Result_grade = result_grade;
+                record.Result_grade = Math.Round(result_grade, 2);
             }
         }
 
+        static bool filled_csv = false;
+
         public static void fill_csv()
         {
-            fill_competences();
-
-
-            var csv_path = Path.GetFullPath("Magic_card_test.csv");
-            using (var writer = new StreamWriter(csv_path))
-            using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+            if (!Competences.filled_csv)
             {
-                csv.WriteRecords(records);
+                fill_competences();
+
+                var csv_path = Path.GetFullPath("Magic_card_competences_data.csv");
+                using (var writer = new StreamWriter(csv_path))
+                using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+                {
+                    csv.WriteRecords(records);
+                }
+
+                Competences.filled_csv = true;
             }
         }
     }

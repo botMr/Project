@@ -13,14 +13,14 @@
         /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
         protected override void Dispose(bool disposing)
         {
-            // Comptences
-            Competences.fill_csv();
-
             if (disposing && (components != null))
             {
                 components.Dispose();
             }
             base.Dispose(disposing);
+
+            // Filling competences in csv after closing game
+            Competences.fill_csv();
         }
 
         #region Код, автоматически созданный конструктором форм Windows

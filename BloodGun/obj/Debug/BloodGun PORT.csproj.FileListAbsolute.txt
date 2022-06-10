@@ -14,3 +14,20 @@ C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\Bloo
 C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun PORT.csproj.CoreCompileInputs.cache
 C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun PORT.exe
 C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun PORT.pdb
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\CsvHelper.dll
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\System.Buffers.dll
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\System.Memory.dll
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\CsvHelper.xml
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\System.Buffers.xml
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\System.Memory.xml
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\slava\Desktop\Important (but maybe not)\Project\BloodGun\obj\Debug\BloodGun PORT.csproj.CopyComplete
