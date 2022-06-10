@@ -29,9 +29,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            // Competences
-            Competences.mc_change_completion("Level_1", Competences.records[0]);
-            Competences.mc_change_completion("Level_1", Competences.records[1]);
 
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lvl1));
             this.label1 = new System.Windows.Forms.Label();

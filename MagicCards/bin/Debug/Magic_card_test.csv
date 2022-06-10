@@ -1,3 +1,3 @@
 Id,Name,Check_info,Level_1,Level_2,Won_battle,Dependent_events,Result_grade
-0,Sonzai,True,True,True,False,False,0.5
-1,Kirill,True,True,True,False,False,0.5
+0,Test,True,False,False,False,False,0.1
+1,dsfsdf_dfsf,True,True,True,True,True,1.1
