@@ -31,11 +31,18 @@ namespace MagicCardPortTest
 
         private void buttonExit_Click(object sender, EventArgs e)
         {
-           Application.Exit();
+            // Filling csv after exit
+            Competences.fill_csv();
+
+            Application.Exit();
         }
 
         private void buttonAboutGame_Click(object sender, EventArgs e)
         {
+            // Competences 
+            Competences.mc_change_completion("Check_info", Competences.records[0]);
+            Competences.mc_change_completion("Check_info", Competences.records[1]);
+
             this.Hide();
             AboutGame about = new AboutGame();
             about.Show();

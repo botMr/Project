@@ -128,12 +128,16 @@ namespace BloodGun_PORT
 
         private void button4_Click(object sender, EventArgs e)
         {
+            // Competences
+            Competences.bg_change_completion("Check_info", Competences.records[0]);
+            Competences.bg_change_completion("Check_info", Competences.records[1]);
+
             pictureBoxWIKI1.Visible = true;
             buttonExit4.Visible = true;
         }
 
         private void buttonExit4_Click(object sender, EventArgs e)
-        {
+        {          
             Data.Rate = Data.Rate + 0.1;
             pictureBoxWIKI1.Visible = false;
             buttonExit4.Visible = false;

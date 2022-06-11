@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            // Competences
-            Competences.bg_change_completion("Check_info", Competences.records[0]);
-            Competences.bg_change_completion("Check_info", Competences.records[1]);
 
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Level1));
             this.button1 = new System.Windows.Forms.Button();

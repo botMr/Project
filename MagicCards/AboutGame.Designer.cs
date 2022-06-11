@@ -29,10 +29,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            // Competences 
-            Competences.mc_change_completion("Check_info", Competences.records[0]);
-            Competences.mc_change_completion("Check_info", Competences.records[1]);
-
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutGame));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();

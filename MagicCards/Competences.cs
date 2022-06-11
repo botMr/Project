@@ -47,18 +47,12 @@ namespace MagicCardPortTest
 
             foreach (var record in records)
             {
-                var result_grade = 0.0;
-                if (record.Check_info) { result_grade += 0.1; }
-                if (record.Level_1) { result_grade += 0.2; }
-                if (record.Level_2) { result_grade += 0.2; }
-                if (record.Won_battle) { result_grade += 0.3; }
                 if (record.Level_2 && record.Won_battle)
                 {
                     record.Dependent_events = true;
-                    result_grade += 0.3;
                 }
 
-                record.Result_grade = Math.Round(result_grade, 2);
+                record.Result_grade = Data.Rang;
             }
         }
 
@@ -70,7 +64,7 @@ namespace MagicCardPortTest
             {
                 fill_competences();
 
-                var csv_path = Path.GetFullPath("Magic_card_competences_data.csv");
+                var csv_path = Path.GetFullPath(@"C:\Users\slava\Desktop\Important (but maybe not)\Project\Magic_card_competences_data.csv");
                 using (var writer = new StreamWriter(csv_path))
                 using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
                 {

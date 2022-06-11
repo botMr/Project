@@ -18,9 +18,6 @@
                 components.Dispose();
             }
             base.Dispose(disposing);
-
-            // Filling csv after closing game
-            Competences.fill_csv();
         }
 
         #region Код, автоматически созданный конструктором форм Windows

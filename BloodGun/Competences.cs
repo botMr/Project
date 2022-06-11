@@ -53,7 +53,7 @@ namespace BloodGun_PORT
             {
                 fill_competences();
 
-                var csv_path = Path.GetFullPath("Blood_gun_competences_data.csv");
+                var csv_path = Path.GetFullPath(@"C:\Users\slava\Desktop\Important (but maybe not)\Project\Blood_gun_competences_data.csv");
                 using (var writer = new StreamWriter(csv_path))
                 using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
                 {
