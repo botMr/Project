@@ -300,5 +300,12 @@ namespace MagicCardPortTest
             Lvl2 lvl2 = new Lvl2();
             lvl2.Show();
         }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu menu = new Menu();
+            menu.Show();
+        }
     }
 }
