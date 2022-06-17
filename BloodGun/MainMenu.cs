@@ -33,6 +33,9 @@ namespace BloodGun_PORT
 
         private void button3_Click(object sender, EventArgs e)
         {
+            // Filling csv after closing game
+            Competences.fill_csv();
+
             Application.Exit();
         }
     }

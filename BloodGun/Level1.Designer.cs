@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Level1));
             this.button1 = new System.Windows.Forms.Button();
             this.LabelSoika = new System.Windows.Forms.Label();
